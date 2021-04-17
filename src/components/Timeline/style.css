@@ -1,0 +1,157 @@
+.timeline {
+    width: 600px;
+    height: 100%;
+    margin-right: 30px;
+    margin-left: 275px;
+    border-left: 1px solid rgba(225, 232, 237, .12);
+    border-right: 1px solid rgba(225, 232, 237, .12);
+}
+
+.lastest-tweets {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 16px;
+    border-bottom: 1px solid rgba(225, 232, 237, .12);
+}
+
+.lastest-tweets i {
+    font-size: 30px;
+    color: #1DA1F2;
+}
+
+.createPost {
+    height: 117px;
+    width: 100%;
+    border-bottom: 10px solid rgba(225, 232, 237, .12);
+}
+
+.photo-n-input {
+  display: flex;
+  padding: 15px;
+  align-items: center
+}
+
+.photo-n-input i {
+  color: white;
+  font-size: 40px;
+}
+
+.photo-n-input input:focus {
+  outline: none;
+}
+
+.post-input {
+  border: none;
+  background-color: transparent;
+  margin-left: 10px;
+  height: 40px;
+  width: 500px;
+  font-size: 20px;
+  color: white;
+}
+
+.icons-tweet {
+  display: flex;
+  width: 100%;
+}
+
+.icons {
+  padding-left: 50px;
+  display: flex;
+  color: white;
+}
+
+.icons i,label {
+  font-size: 24px;
+  margin-right: 20px;
+  color: #1DA1F2;
+}
+
+.gif {
+  margin-right: 20px;
+  color: #1DA1F2;
+  border-radius: 2px;
+  padding: 2px;
+}
+
+.tweet {
+  position: relative;
+  bottom: 10px;
+  left: 250px;
+  width: 100px;
+  height: 35px;
+  border-radius: 30px;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1DA1F2;
+  border: none;
+}
+
+button:active {
+  background-color: #1588cf;
+}
+
+button:focus {
+  outline: none;
+}
+
+.posts {
+
+}
+
+.profile-img {
+  float: left;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.post {
+  padding: 20px;
+  color: white;
+  border-bottom: 1px solid rgba(225, 232, 237, .12);
+}
+
+.content-wrap {
+  display: flex;
+}
+
+.userName {
+  font-weight: 700;
+  margin-right: 10px;
+}
+
+.post-content {
+  margin-top: 5px;
+}
+
+.nickname, .time, .dot {
+  color: #657786;
+  margin-right: 5px;
+}
+
+.post i {
+  font-size: 40px;
+  float: left;
+  margin-right: 15px;
+}
+
+.postImg {
+  max-width: 520px;
+  margin-left: 50px;
+  margin-top: 15px;
+  border-radius: 20px;
+}
+
+.cont-userInfo {
+  display: flex;
+  flex-direction: column;
+}
